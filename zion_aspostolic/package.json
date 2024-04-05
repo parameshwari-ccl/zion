@@ -1,0 +1,11 @@
+{
+  "name": "zion_aspostolic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:scss": "node-sass -w styles/home.scss styles/home.css"
+  },
+  "author": "",
+  "license": "ISC"
+}

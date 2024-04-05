@@ -1,0 +1,177 @@
+* {
+  margin: 0%;
+  padding: 0%; }
+  * body #background {
+    height: 100%; }
+    * body #background #vedio-div #myVideo {
+      position: relative;
+      width: 100%; }
+    * body #background #content {
+      top: 0%;
+      position: absolute;
+      width: 100%;
+      content: '';
+      display: table;
+      clear: both; }
+      * body #background #content .left-logo {
+        float: left;
+        width: 20%;
+        padding: 27px; }
+        * body #background #content .left-logo img {
+          width: 95px; }
+      * body #background #content .navbar {
+        float: right;
+        width: 55%;
+        text-align: center;
+        margin-top: 60px; }
+        * body #background #content .navbar a {
+          font-family: Montserrat, sans-serif;
+          font-weight: 700;
+          padding: 0px 20px;
+          font-size: 17px;
+          width: 150px;
+          color: white;
+          text-decoration: none; }
+    * body #background #center-content {
+      margin: 300px 0px 0px 200px;
+      text-align: left; }
+      * body #background #center-content h2 {
+        text-align: left;
+        font-family: inter, sans-serif;
+        font-size: 40px;
+        color: white;
+        padding: 20px 0px; }
+      * body #background #center-content p {
+        font-family: manrope, sans-serif;
+        font-weight: 400;
+        color: white;
+        line-height: 1.5; }
+      * body #background #center-content button {
+        margin: 30px 0px;
+        font-family: Montserrat, sans-serif;
+        font-size: 17px;
+        width: 270px;
+        padding: 15px 0px;
+        border-radius: 8px;
+        color: white;
+        background-color: #161718;
+        border: 0.2px solid white;
+        box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.25);
+        margin-bottom: 200px; }
+  * body #relat {
+    background-image: url("https://framerusercontent.com/images/rX3s5jtZ4spiYfb24VBSEi1nA.jpg?scale-down-to=4096");
+    position: relative;
+    height: 350px; }
+    * body #relat #clearfix {
+      position: relative;
+      width: 100%;
+      content: '';
+      clear: both;
+      padding-top: 50px;
+      height: 239px; }
+      * body #relat #clearfix .left {
+        width: 45%;
+        float: left;
+        padding: 30px 0px 0px 30px; }
+        * body #relat #clearfix .left .clearfix {
+          width: 100%;
+          content: '';
+          clear: both; }
+          * body #relat #clearfix .left .clearfix #left {
+            float: left;
+            width: 16%; }
+            * body #relat #clearfix .left .clearfix #left #footer-logo {
+              width: 95px; }
+          * body #relat #clearfix .left .clearfix #right {
+            width: 80%;
+            float: right; }
+      * body #relat #clearfix #right {
+        width: 60%;
+        float: left; }
+        * body #relat #clearfix #right #org-name {
+          width: 310px; }
+        * body #relat #clearfix #right h4 {
+          font-family: Montserrat, sans-serif;
+          margin-top: 15px;
+          color: white;
+          font-size: 17px; }
+      * body #relat #clearfix .right {
+        width: 52%;
+        float: right;
+        margin-top: 100px; }
+        * body #relat #clearfix .right .navbar .container-fluid a {
+          font-family: Montserrat, sans-serif;
+          font-weight: 700;
+          padding: 0px 20px;
+          font-size: 17px;
+          color: white;
+          text-decoration: none; }
+    * body #relat #foot-note {
+      text-align: center;
+      color: #9CA6BE;
+      font-family: open-sans, sans-serif;
+      font-weight: 300; }
+
+@media (max-width: 1024px) {
+  body #background {
+    height: 500px; }
+    body #background #content .left-logo img {
+      width: 80px; }
+    body #background #content .navbar {
+      width: 60%;
+      text-align: center;
+      margin-top: 50px; }
+      body #background #content .navbar a {
+        padding: 0px 10px;
+        font-size: 15px;
+        width: 140px; }
+    body #background #center-content {
+      margin: 150px 0px 0px 150px; }
+      body #background #center-content h2 {
+        font-size: 30px; }
+      body #background #center-content p {
+        font-size: 13px;
+        line-height: 1.5; }
+      body #background #center-content button {
+        margin: 20px 0px;
+        font-size: 15px;
+        width: 200px;
+        padding: 13px 0px; }
+  body #relat {
+    height: 300px; }
+    body #relat #clearfix {
+      padding-top: 30px;
+      height: 250px; }
+      body #relat #clearfix .left {
+        padding: 25px 0px 0px 25px; }
+        body #relat #clearfix .left .clearfix #left #footer-logo {
+          width: 80px; }
+        body #relat #clearfix .left .clearfix #right {
+          width: 80%;
+          float: right; }
+      body #relat #clearfix #right {
+        width: 60%;
+        float: left; }
+        body #relat #clearfix #right #org-name {
+          width: 310px; }
+        body #relat #clearfix #right h4 {
+          font-family: Montserrat, sans-serif;
+          margin-top: 15px;
+          color: white;
+          font-size: 17px; }
+      body #relat #clearfix .right {
+        width: 52%;
+        float: right;
+        margin-top: 100px; }
+        body #relat #clearfix .right .navbar .container-fluid a {
+          font-family: Montserrat, sans-serif;
+          font-weight: 700;
+          padding: 0px 20px;
+          font-size: 17px;
+          color: white;
+          text-decoration: none; }
+    body #relat #foot-note {
+      text-align: center;
+      color: #9CA6BE;
+      font-family: open-sans, sans-serif;
+      font-weight: 300; } }
